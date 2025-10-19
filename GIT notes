@@ -1,0 +1,20 @@
+git init - initializes git in current folder (creates a new local repos)
+
+git add - adds file to staging area (prepares it for commit)
+
+git status - shows the current status - which files are staged, unstaged or untracked
+
+git commit -m "message" - saves teh staged changes in your local repos with a message
+
+git push -u origin <branch> - pushes file from local to remote repo (Github)
+
+    NOTES
+    - after the first push with -u, you can just use : git push (git remembers the remote and branch automatically)
+    - you only run git remote add once per project, not every time you push
+
+
+
+
+
+
+git remote add <name> <githublink>
