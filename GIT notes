@@ -6,15 +6,27 @@ git status - shows the current status - which files are staged, unstaged or untr
 
 git commit -m "message" - saves teh staged changes in your local repos with a message
 
-git push -u origin <branch> - pushes file from local to remote repo (Github)
+git remote add origin <githublink>
+
+git push -u origin master/main - pushes file from local to remote repo (Github)
 
     NOTES
     - after the first push with -u, you can just use : git push (git remembers the remote and branch automatically)
     - you only run git remote add once per project, not every time you push
 
+git checkout - rolls back to the previous version
+
+git diff <filename>
+
+git reset --soft HEAD~1 - Your code stays the same. Use this if you just want to fix the commit message or re-stage files.
+
+
+git reset --hard HEAD~1 - This deletes your unpushed commit and all changes from it. Use this only if you’re sure you don’t need the recent edits.
 
 
 
 
 
-git remote add <name> <githublink>
+
+
+
