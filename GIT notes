@@ -20,10 +20,9 @@ git diff <filename>
 
 git reset --soft HEAD~1 - Your code stays the same. Use this if you just want to fix the commit message or re-stage files.
 
-
 git reset --hard HEAD~1 - This deletes your unpushed commit and all changes from it. Use this only if you’re sure you don’t need the recent edits.
 
-
+FORKING - have your own copy of code/file. Owners can see on their account the members/collaborators who forked.
 
 
 
